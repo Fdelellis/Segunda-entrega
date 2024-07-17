@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+html{
+    background-image: url("https://images.unsplash.com/photo-1646649853703-7645147474ba?q=80&w=1771&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: auto;
+    font-size: 16px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+.section-principal{
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    color: black;
+    background-size: cover;
+    background-position: center;
+    font-size: 30px;
+
+
+}
+
+.navbar li a{
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}   
+
+.babolat2{
+    height: 100 px;
+    width: 300px;
+    margin-top: 100px
+    
+    
+}   
+
+.head2{
+    height: 50 px;
+    width: 200px;
+    margin-left: 100px;
+    margin-top: 10px;
+
+}
+
+.bullpadel2{
+    height: 50 px;
+    width: 300px;
+    margin-left: 200px;
+    margin-bottom: -20mm;
+}
+
+.siux2{
+    height: 50 px;
+    width: 200px;
+    margin-bottom: -18mm;
+    margin-left: 250px;
+}
+
+button{
+    padding: 5px 3px;
+    margin-left: 96%;
+    border: 2px solid green;
+    border-radius: 6px
+}     
+
+h2{
+    margin-left: 15px;
+    font-family: "Poppins", sans-serif
+
+}
+.paletavarlion{
+    height: 50 px;
+    width: 200px;
+
+
+}
+
+.paletahead{
+    width: 150px;
+
+
+}
+.paleta2{
+    margin-left: 250px;
+    margin-top: -270px;
+}
+
+.paletababolat{
+    width: 110px;
+}
+
+.paleta3{
+    margin-left: 500px;
+    margin-top: -250px;
+}
+
+.paletasiux{
+    width: 140px;
+}
+
+.paleta4{
+    margin-left: 750px;
+    margin-top: -230px;
+}
+
+.backfilter{
+    background-color: rgba(255, 255, 255, 0.301);
+    height: 20cm;
+    width:1650px ;
+}
+
+.backround{
+    background-color: rgb(246, 248, 249);
+    height: 15cm;
+    width: 1450px;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+.slogan2{
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    font-size: 35px;
+}
+
+h3{
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+p{
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+}
+
+.facebook{
+    height: 40px;
+    width: 40px;
+    
+}
+
+.instagram{
+    height: 40px;
+    width: 40px;
+}
+
+.cuotas{
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+}
+
+h5{
+    color: red;
+    font-family: "Poppins", sans-serif
+    
+}
+
+
+.camisetahead{
+    width: 200px;
+
+}
+
+.camisetacoello{
+    width: 200px;
+}
+
+.camiseta2{
+    margin-left: 250px;
+    margin-top: -250px;
+}
+
+
+.shortbabolat{
+    width: 150px;
+}
+
+.short{
+    margin-left: 500px;
+    margin-top: -210px;
+}
+
+.camisetasiux{
+    width: 150px;
+}
+
+.camiseta3{
+    margin-left: 750px;
+    margin-top: -230px; 
+}
+
+.bolsobabolat{
+    width: 200px;
+}
+.bolsounisex{
+    width: 200px;
+}
+
+.bolso2{
+    margin-left: 250px;
+    margin-top: -260px;
+}
+
+.bullpadelballs{
+    width: 200px;
+}
+
+.balls{
+    margin-left: 500px;
+    margin-top: -260px;
+}
+
+.wrisband{
+    width: 200px;
+}
+
+.wsiux{
+    margin-left: 750px;
+    margin-top: -260px;
+}
