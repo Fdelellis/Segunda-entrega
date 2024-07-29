@@ -8,92 +8,152 @@
     <link rel="stylesheet" href="../index.html">
 </head>
 <header>
-    <section class="section-principal">
-    </section>
-    <div>
-        <section class="logo">
-            <img src="" alt="">
-        </section>
-    </div>
-    <nav>
+    <nav class="header-index">
         <ul class="navbar">
             <li class="section-principal">
-                <a href="../index.html">Net Advantage Padel</a> 
+                <a href="../index.html"><img class="na" src="../asset/img/LOGO NA.png" alt=""></a> 
             </li>
-            <li>
+            <li class="section-principal2">
                 <a href="./rackets.html">Rackets</a>
             </li>
-            <li>
+            <li class="section-principal3">
                 <a href="#">Clothes</a>
             </li>
-            <li>
-                <a href="./accesories.html">Accesories</a>
+            <li class="section-principal4">
+                <a href="../pages/accesories.html">Accesories</a>
             </li>
-            <li>
-                <a href="./aboutus.html">About Us</a>
+            <li class="section-principal5">
+                <a href="../pages/aboutus.html">About Us</a>
             </li>
+            <li class="button1">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="search" viewBox="0 0 16 16">
+                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/> 
+                </svg>
+            </li>
+            <li class="button2">    
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="cart2" viewBox="0 0 16 16">
+                    <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5M3.14 5l1.25 5h8.22l1.25-5zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0m9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0"/>
+                </svg>
+            </li>
+            
         </ul>
     </nav>
+
 </header>
 <main>
-    <div>
-        <section class="button">
-            <button>Search</button>
-            <button>Basket</button>
-        </section>
+    <div class="backfilter">
+        <h2>Filter</h2>
+        <form class="formulario" action="">
+            <input type="text" placeholder="Search">
+        </form>
+    <section class="stock">
+        <h3 class="availability">Availability</h3>
+        <button  class="buttons-stock1">In Stock</button>
+        <button  class="buttons-stock2">Out of Stock</button>
+    </section>
+        <h4 class="precio">Price</h4>
+        <section class="price-range__sliders relative no-js-hidden">
+            <label class="visually-hidden" for="price-range-slider-min">0$</label>
+            <input type="range" class="price-range__slider-input m-0" id="price-range-slider-min" value="0" min="0" max="299" step="1" tabindex="-1">
+            <label class="visually-hidden" for="price-range-slider-max">$100.000</label>
+            <p class="clear">Clear</p>
+    </section>
+    <section class="backround">
+        <article class="card">
+    <section class="card-img">
+        <img src="../asset/img/camiseta coello.jpg" alt="camiseta coello">
+    </section>
+    <section>
+        <h3>T-Shirt Head Arturo Coello</h3>
+        <ul class="card-info">
+            <li class="control">S/M/L/XL/XXL</li>
+            <li class="valor">U$D45.65</li>
+            <li class="cuotas">Special discount of 20% with cash</li>
+        </ul>
+            <button class="cart">Add to cart</button>
+    </section>
+        </article>
+        <article class="card">
+    <section class="card-img">
+        <img src="../asset/img/Camiseta Siux.jpg" alt="camiseta siux">
+    </section>
+    <section>
+        <h3>Siux t-shirt 2024</h3>
+        <ul class="card-info">
+            <li class="control">XS/S/M/L</li>
+            <li class="valor">U$D35.00</li>
+            <li class="cuotas">Special discount of 20% with cash</li>
+        </ul>
+            <button class="cart">Add to cart</button>
+    </section>
+        </article>
+        <article class="card">
+    <section class="card-img">
+            <img src="../asset/img/Shoes Babolat.png"  alt="Shoes">
+    </section>
+    <section>
+        <h3>Babolat Shoes</h3>  
+        <ul class="card-info">
+            <li class="control">37/38/42/44/45/</li>
+            <li class="valor">U$D100</li>
+            <li class="cuotas">Special discount of 20% with cash</li>
+        </ul>
+            <button class="cart">Add to cart</button>
+    </section>
+        </article>
+        <article class="card">
+    <section class="card-img">
+        <img src="../asset/img/Short nike.png" alt="short nike">
+    </section>
+    <section>
+        <h3>Short Nike Dry Fit</h3>
+        <ul class="card-info">
+            <li class="control">XS/S/M/L</li>
+            <li class="valor">U$D20</li>
+            <li class="cuotas">Special discount of 20% with cash</li>
+        </ul>
+            <button class="cart1">Add to cart</button>
+    </section>
+        </article>
     </div>
     </main>
 
-<body>
-    <div class="backfilter">
-        <h2>Filter</h2>
-        <h4 class="availability">Availability</h4>
-            <ul class="filtros">
-            <li>In Stock</li>
-            <li>Out of Stock</li>
-        </ul>
-        <h4>Price</h4>
-        <section class="backround">
-        <article>
-            <img src="../asset/img/Camisetahead.jpg" alt="" class="camisetahead">
-            <h4>T-Shirt Babolat Pro Play</h4>
-            <h5>$35.000</h5>
-            <p class="cuotas">3 cuotas sin interes</p>
-        </article>
-        <article class="camiseta2">
-            <img src="../asset/img/camiseta coello.jpg" alt="" class="camisetacoello">
-            <h4>T-Shirt Head Arturo Coello</h4>
-            <h5>$55.000</h5>
-            <p class="cuotas">3 cuotas sin interes</p>
-        </article>
-        <article class="short">
-            <img src="../asset/img/Short.png" alt="" class="shortbabolat">
-            <h4>Short Babolat</h4>
-            <h5>$30.000</h5>
-            <p class="cuotas">3 cuotas sin interes</p>
-        </article>
-        <article class="camiseta3">
-            <img src="../asset/img/Camiseta Siux.jpg" alt="" class="camisetasiux">
-            <h4>T-Shirt Siux</h4>
-            <h5>$60.000</h5>
-            <p class="cuotas">3 cuotas sin interes</p>
-        </article>
-        </section>
-    </div>
-</body>
-<footer>
-    <div>
-    <section>
-        <img src="../asset/img/Babolat.png" alt="" class="babolat2">
-        <img src="../asset/img/Head.png" alt="" class="head2">
-        <img src="../asset/img/Bullpadel.png" alt="" class="bullpadel2">
-        <img src="../asset/img/Siux.png" alt="" class="siux2">
-    </section>
-    <section>
-        <img src="../asset/img/Facebook.png" alt="" class="facebook">
-        <img src="../asset/img/klipartz.com (1).png" alt="" class="instagram">
-    </section>
-</div>
 
-</footer>
+    <footer>
+        <div class="grid-footer">
+            <img src="../asset/img/Babolat.png" alt="" class="babolat">
+            <img src="../asset/img/Head.png" alt="" class="head">
+            <img src="../asset/img/Bullpadel.png" alt="" class="bullpadel">
+            <img src="../asset/img/Siux.png" alt="" class="siux">
+            <img src="../asset/img/Adidas.png" alt="" class="adidas">
+            <img src="../asset/img/Facebook.png" alt="" class="facebook">
+            <img src="../asset/img/klipartz.com (1).png" alt="" class="instagram">
+            <img src="../asset/img/X.png" alt="" class="X">
+            <ul class="contact">
+                <li><a href=""></a>Contact Us</li>
+                <li><a href="../pages/aboutus.html"></a>About Us</li>
+                <li><a href=""></a>My orders</li>
+                <li><a href=""></a>Warranty, change and return</li>
+            </ul>   
+            <ul class="info">
+                <li><a href=""></a>info@advantagepadel.com</li>
+                <li><a href=""></a>EN SP IT FR</li>
+            </ul>
+            <form method="post" action="/en-int/contact#footer-signup_form" id="footer-signup_form" accept-charset="UTF-8" class="form" data-cptcha="true" data-hcaptcha-bound="true"><input type="hidden" name="form_type" value="customer"><input type="hidden" name="utf8" value="✓">
+                <input type="hidden" name="contact[tags]" value="prospect, newsletter">
+            <section class="form__field">
+                <label class="label visually-hidden" for="footer-signup">Email</label><div class="input-with-button"><input type="email" class="input w-full focus-inset" id="footer-signup" name="contact[email]" value="" placeholder="Your email" autocomplete="email" aria-required="true" required=""><button class="button-suscribe">
+                        Subscribe
+                        <svg width="24" height="24" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5" fill="none" aria-hidden="true" focusable="false" role="presentation" class="icon"><path d="M4.696 12h14.686m-7.007-7.5 7.5 7.5-7.5 7.5"></path></svg>
+                        </button></div><div class="suscribe">
+                    <input class="m-0 input-round pointer" type="checkbox" id="footer-signup-privacy" name="contact[privacy_policy]" aria-required="true" required="">
+                    <label for="footer-signup-privacy" class="text-theme-text pointer hide-select input-label">I accept the <a class="link" href="/en-int/policies/privacy-policy"> Privary Policy </a></label>
+                    </div></div><div class="h-captcha" data-sitekey="f06e6c50-85a8-45c8-87d0-21a2b65856fe" data-size="invisible"><iframe aria-hidden="true" data-hcaptcha-widget-id="0gi9qzymprjj" data-hcaptcha-response="" style="display: none;"></iframe><textarea id="h-captcha-response-0gi9qzymprjj" name="h-captcha-response" style="display: none;"></textarea></div></form>
+            </section>
+        </div>  
+    </footer>
+
+<body>
+    
+</body>
 </html>
