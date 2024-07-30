@@ -23,13 +23,25 @@ html{
 
 .navbar{
     display: grid;
-    grid-template-columns: repeat(6,250px);
+    grid-template-columns: repeat(6,230px);
     grid-template-rows: repeat(1,80px);
     list-style: none;
 }
 
 
 .navbar li a:hover{
+    color: white;
+}
+
+.lines{
+    display: grid;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    width: 10px;
+    
+}
+
+.lines:hover{
     color: white;
 }
 
@@ -42,20 +54,20 @@ html{
 .section-principal{
     grid-column: 3 / 5;
     grid-row: 1 / 2;
-    margin-left: 200px;
+    margin-left: 260px;
 }
 .section-principal2{
     display: grid;
     grid-column: 1 / 2;
     grid-row: 1 / 2;
-    margin-left: 50px;
+    margin-left: 150px;
 }
 
 .section-principal4{
     display: grid;
     grid-column: 5 / 6 ;
     grid-row: 1 / 2; 
-    margin-left: 10px;
+    margin-left: 70px;
 
 }
 
@@ -63,13 +75,13 @@ html{
     display: grid;
     grid-column: 2 / 3;
     grid-row: 1 / 2; 
-    margin-left: 100px;
+    margin-left: 180px;
 }
 .section-principal5{
     display: grid;
-    grid-column: 6 / 7;
+    grid-column: 6 / 8;
     grid-row: 1 / 2; 
-    margin-left: 50PX;
+    margin-left: 150PX;
 }
 
 .button1{
@@ -79,7 +91,7 @@ html{
     grid-column: 7 / 8;
     grid-row: 1 / 2;    
     justify-content: baseline;
-    margin-left: 50px;
+    margin-left: 190px;
     
 }     
 
@@ -90,7 +102,7 @@ html{
     grid-column: 7 / 8;
     grid-row: 1 / 2;  
     align-self: flex-end;
-    margin-left: 80px;
+    margin-left: 220px;
 }
 
 
@@ -185,7 +197,7 @@ html{
     grid-column: 5 / 6;
     grid-row: 3 / 4;
     align-self: center;
-    margin-left:450px;
+    margin-left:430px;
     margin-bottom: 40px;
 
 }
@@ -237,6 +249,16 @@ html{
     margin-left: 16px;
     margin-top: -10px;
     
+}
+
+.contactus:hover{
+    color: white;
+}
+.aboutus2{
+    list-style: none;
+}
+.aboutus2:hover{
+    color: white;
 }
 
 .info{
@@ -303,6 +325,14 @@ suscribe{
 }
 
 
+
+
+
+
+
+
+
+
 @media (max-width:1024px){
 
     .grid{
@@ -351,6 +381,18 @@ suscribe{
         color: white;
     }
 
+
+    .lines{
+        display: grid;
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+        width: 10px;
+        
+    }
+    
+    .lines:hover{
+        color: white;
+    }
 
     .na{
         display: grid;
@@ -602,6 +644,18 @@ suscribe{
     }
 
 
+    .lines{
+        display: grid;
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+        width: 10px;
+        
+    }
+    
+    .lines:hover{
+        color: white;
+    }
+
     .na{
         display: grid;
         grid-column: 3 / 4;
@@ -812,6 +866,7 @@ suscribe{
         grid-column: 7 / 8;
         grid-row: 6 / 7;
         margin-top: 70px;
+        margin-left: 290px;
 
         
         
@@ -822,7 +877,7 @@ suscribe{
         width: 15px;
         grid-column: 7 / 8;
         grid-row: 6 / 7;
-        margin-left: 60px;
+        margin-left: 120px;
         margin-top: 70px;
     }
     
@@ -831,7 +886,7 @@ suscribe{
         width: 15px;
         grid-column: 7 / 8;
         grid-row: 6 / 7;
-        margin-left: 30px;
+        margin-left: 90px;
         margin-top: 70px;
 
     }
@@ -879,7 +934,17 @@ suscribe{
     
     }
 
-
+    .lines{
+        display: grid;
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+        width: 10px;
+        
+    }
+    
+    .lines:hover{
+        color: white;
+    }
 
 
     .section-principal{
@@ -937,7 +1002,9 @@ suscribe{
 
         
     }
-
+.filter{
+    display: none;
+}
 
     .slogan{
         display: grid;
@@ -953,7 +1020,7 @@ suscribe{
         width: 100%;
         height: 50vh;
         grid-template: repeat(8,86px) /repeat(5,70px);
-        margin-top: 220px;
+        margin-top: 270px;
     }
 
     .babolat{
@@ -965,7 +1032,7 @@ suscribe{
         grid-row: 2 / 4;
         margin-left: 0px;
         align-self: center;
-        margin-top: 275spx;
+        margin-top: 275px;
     
         
     }   
@@ -1075,6 +1142,7 @@ suscribe{
         grid-column: 5 / 6;
         grid-row: 8 / 9;
         margin-top: 70px;
+        margin-left: 327px;
 
         
         
@@ -1085,7 +1153,7 @@ suscribe{
         width: 15px;
         grid-column: 5 / 6;
         grid-row: 8 / 9;
-        margin-left: 60px;
+        margin-left: 160px;
         margin-top: 70px;
     }
     
@@ -1094,7 +1162,7 @@ suscribe{
         width: 15px;
         grid-column: 5 / 6;
         grid-row: 8 / 9;
-        margin-left: 30px;
+        margin-left: 130px;
         margin-top: 70px;
 
     }
